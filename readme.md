@@ -52,6 +52,8 @@ To run the program, use the command line to specify the trade amount, action, an
 python main.py <amount> <action> --exchanges <exchange1> <exchange2> ...
 ```
 
+<img width="909" alt="Screenshot 2024-08-21 at 1 41 17 AM" src="https://github.com/user-attachments/assets/2f3740ae-cb92-4231-a903-f5447564d770">
+
 ### Examples:
 
 1. **Buy 10 BTC from all supported exchanges**:
@@ -64,4 +66,3 @@ python main.py <amount> <action> --exchanges <exchange1> <exchange2> ...
     python main.py 5 sell --exchanges coinbase gemini
     ```
 
-The output will display the total price and the detailed orders used to fulfill the transaction.
