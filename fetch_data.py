@@ -1,6 +1,19 @@
 import requests
 import time
 from requests.exceptions import RequestException
+from enum import Enum
+
+class CryptoPair(Enum):
+    BTC = {
+        "coinbase": "BTC-USD",
+        "gemini": "btcusd",
+        "kraken": "XBTUSD"
+    }
+    ETH = {
+        "coinbase": "ETH-USD",
+        "gemini": "ethusd",
+        "kraken": "ETHUSD"
+    }
 
 def fetch_with_backoff(url, headers=None, max_retries=5, base_delay=1):
     retries = 0
