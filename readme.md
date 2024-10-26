@@ -1,4 +1,4 @@
-# Code Test : 
+# CryptoBook Aggregator: 
 
 This Python project aggregates order books from multiple cryptocurrency exchanges (CoinBase Pro, Gemini, and Kraken) to calculate the price to buy or sell a specified amount of Bitcoin (BTC). The program allows you to select the amount, action (buy or sell), and the exchanges to include in the calculation.
 
